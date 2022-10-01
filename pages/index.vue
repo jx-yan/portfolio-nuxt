@@ -1,16 +1,40 @@
 <script setup>
-	
+	import { themeChange } from "theme-change";
+	var colorTheme = ref("Night");
+
+	onMounted(() => {
+		themeChange(false);
+	});
 </script>
 
+<style>
+	@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+	.header {
+		background-image: url("./assets/nasa-earth-bg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	[data-theme="winter"] .d-btn {
+		background-color: hsl(var(--b1));
+	}
+	[data-theme="winter"] .d-btn:hover {
+		background-color: hsl(var(--b3));
+	}
+</style>
+
 <template>
-	<div class="drawer prose max-w-none">
+	<div class="drawer prose max-w-none scroll-smooth">
 		<input id="my-drawer" type="checkbox" class="drawer-toggle" />
 		<div class="drawer-content h-screen">
 			<!-- Navbar -->
-			<div class="container fixed w-screen">
+			<div class="fixed w-screen">
 				<!-- Drawer Label -->
-
-				<label for="my-drawer" class="btn btn-square ml-8 mt-6 shadow-lg">
+				<label
+					for="my-drawer"
+					class="btn d-btn text-base-content border-0 ml-8 mt-6 shadow-lg"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 24 24"
@@ -126,9 +150,25 @@
 							</svg>
 						</a>
 					</li>
+					<div class="form-control flex place-content-center">
+						<label class="label cursor-pointer">
+							<input
+								type="checkbox"
+								class="toggle"
+								data-toggle-theme="night,winter"
+								v-model="colorTheme"
+								false-value="Night"
+								true-value="Winter"
+							/>
+						</label>
+					</div>
 				</ul>
 			</div>
-			<slot></slot>
+			<div>
+				<section class="header h-screen">
+					
+				</section>
+			</div>
 		</div>
 		<div class="drawer-side">
 			<label for="my-drawer" class="drawer-overlay"></label>
@@ -243,8 +283,15 @@
 				<div class="flex grow"></div>
 				<div class="form-control place-items-center">
 					<label class="label cursor-pointer">
-						<p class="p-5 font-medium font-sans">Switch Mode</p>
-						<input type="checkbox" class="toggle" v-model="darkModeChecked" @click="toggleDarkMode"/>
+						<p class="p-5 font-medium font-sans">{{ colorTheme }} Mode</p>
+						<input
+							type="checkbox"
+							class="toggle"
+							data-toggle-theme="night,winter"
+							v-model="colorTheme"
+							false-value="Night"
+							true-value="Winter"
+						/>
 					</label>
 				</div>
 			</ul>

@@ -8,12 +8,12 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.1.1",
+    "@nuxtjs/color-mode": "^3.1.6",
     "@nuxtjs/tailwindcss": "^5.3.3",
-    "nuxt": "3.0.0-rc.10"
+    "nuxt": "3.0.0-rc.11"
   },
   "dependencies": {
-    "flowbite": "^1.5.3",
-    "tailwindcss-dark-mode": "^1.1.7"
+    "@tailwindcss/typography": "^0.5.7",
+    "daisyui": "^2.31.0"
   }
 }

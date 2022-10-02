@@ -2,17 +2,16 @@
 export default defineNuxtConfig({
 	modules: [
 		"@nuxtjs/tailwindcss",
+		"@nuxt/content",
 		[
 			"@pinia/nuxt",
 			{
-				autoImports: [
-					"defineStore"
-				],
+				autoImports: ["defineStore"],
 			},
 		],
 	],
 	loading: {
 		color: "blue",
 		height: "5px",
-	},
+	}
 });

@@ -77,7 +77,7 @@
 							}}</span>
 							<span class="grow"></span>
 							<a :href="designDisplayed.link" class="no-underline" target="_blank">
-								<button class="btn btn-secondary">View Prototype</button>
+								<button class="btn btn-secondary shadow-2xl drop-shadow-2xl">View Prototype</button>
 							</a>
 						</div>
 					</div>

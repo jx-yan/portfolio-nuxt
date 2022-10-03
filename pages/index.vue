@@ -5,6 +5,7 @@
 	onMounted(() => {
 		themeChange(false);
 	});
+
 </script>
 
 <style>
@@ -112,7 +113,7 @@
 							</svg>
 						</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="#skills" class="no-underline">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +144,7 @@
 								/>
 							</svg>
 						</a>
-					</li>
+					</li> -->
 					<div class="form-control flex place-content-center">
 						<label class="label cursor-pointer">
 							<input
@@ -161,6 +162,8 @@
 			<div>
 				<Header></Header>
 				<Experience></Experience>
+				<Projects></Projects>
+				<Design></Design>
 			</div>
 		</div>
 		<div class="drawer-side">
@@ -183,7 +186,7 @@
 									clip-rule="evenodd"
 								/>
 							</svg>
-							<h4 class="m-0">Jiaxing</h4>
+							<h5 class="m-0">Jiaxing</h5>
 						</a>
 					</li>
 					<li>
@@ -203,7 +206,7 @@
 									d="M3 18.4v-2.796a4.3 4.3 0 00.713.31A26.226 26.226 0 0012 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 01-6.477-.427C4.047 21.128 3 19.852 3 18.4z"
 								/>
 							</svg>
-							<h4 class="m-0">Experience</h4>
+							<h5 class="m-0">Experience</h5>
 						</a>
 					</li>
 					<li>
@@ -220,7 +223,7 @@
 									clip-rule="evenodd"
 								/>
 							</svg>
-							<h4 class="m-0">Projects</h4>
+							<h5 class="m-0">Projects</h5>
 						</a>
 					</li>
 					<li>
@@ -235,10 +238,10 @@
 									d="M21.731 2.269a2.625 2.625 0 00-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 000-3.712zM19.513 8.199l-3.712-3.712-12.15 12.15a5.25 5.25 0 00-1.32 2.214l-.8 2.685a.75.75 0 00.933.933l2.685-.8a5.25 5.25 0 002.214-1.32L19.513 8.2z"
 								/>
 							</svg>
-							<h4 class="m-0">Design Portfolio</h4>
+							<h5 class="m-0">Design Portfolio</h5>
 						</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="#skills" class="no-underline">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -252,10 +255,10 @@
 									clip-rule="evenodd"
 								/>
 							</svg>
-							<h4 class="m-0">Skills</h4>
+							<h5 class="m-0">Skills</h5>
 						</a>
-					</li>
-					<li>
+					</li> -->
+					<!-- <li>
 						<a href="#articles" class="no-underline">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -269,9 +272,9 @@
 									clip-rule="evenodd"
 								/>
 							</svg>
-							<h4 class="m-0">Interesting Reads</h4>
+							<h5 class="m-0">Interesting Reads</h5>
 						</a>
-					</li>
+					</li> -->
 				</ul>
 				<div class="flex grow"></div>
 				<div class="form-control place-items-center">

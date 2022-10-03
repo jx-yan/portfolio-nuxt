@@ -101,17 +101,17 @@
 	<section class="header h-screen" id="header">
 		<div class="grid mx-auto h-screen content-end">
 			<div class="container mx-auto px-8 pb-16">
-				<h1 class="m-0 p-5 font-sans font-bold antialiased drop-shadow-2xl">
+				<h1 class="m-0 py-5 font-sans font-bold antialiased drop-shadow-2xl">
 					{{ typeObj.typeValue }}
 					<div class="cursor" :class="{ typing: typeObj.typeStatus }"></div>
 				</h1>
-				<h2 class="m-0 p-5 font-sans font-bold antialiased drop-shadow-2xl">
+				<h2 class="m-0 py-5 font-sans font-bold antialiased drop-shadow-2xl">
 					Jiaxing's Website
 				</h2>
-				<h3 class="m-0 p-5 drop-shadow-2xl italic">
+				<h3 class="m-0 py-5 drop-shadow-2xl italic">
 					Aspiring Product Manager and Frontend Engineer
 				</h3>
-				<p class="m-0 font-medium p-5 antialiased drop-shadow-2xl">
+				<p class="m-0 font-medium py-5 antialiased drop-shadow-2xl">
 					Built with
 					<svg
 						viewBox="0 0 221 65"

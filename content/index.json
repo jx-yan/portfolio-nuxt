@@ -3,14 +3,183 @@
 		{
 			"title": "Product Management Intern",
 			"company": "Circles.Life",
+			"companyLogo": "https://www.circles.life/sg/assets/circles-logo-dark.svg",
 			"location": "Singapore",
-			"date": "May 2019 - Aug 2019",
+			"date": "May 2022 - Nov 2022",
 			"jobDescAll": [
 				"Coordinated launch of eSIM in Circles.Life Australia with forecast increase in company GAs by 10% and increase in activation rate by 20%; Iterated and created new eSIM order and activation flow in collaboration with product managers, design team",
 				"Responsible for gathering prepaid SIM system requirements and developing prepaid system features with forecast increase in 5.5k GAs per month and increase in brand impression after launch in Australia",
 				"Managed development of plan refreshes to offer International Calls add-on and mid-tier plan in Circles.Life Australia which increased company revenue stream and increase ARPU by 2.5%",
 				"Led user research efforts with research and trends team on a revamp project for SIM purchasing journey in Singapore and Australia to improve user experience, with a forecast 20% increase in SUPR-Q score"
+			],
+			"expSkills": [
+				"Product Management",
+				"Project Management",
+				"Jira",
+				"Confluence",
+				"Opsgenie",
+				"Metabase",
+				"SQL",
+				"Business Analysis"
 			]
+		},
+		{
+			"title": "1st Runner Up, Citi-SMU Financial Inclusion Hackathon 2021",
+			"company": "SMU Sim Kee Boon Institute of Financial Economics",
+			"companyLogo": "https://news.smu.edu.sg/sites/news.smu.edu.sg/files/styles/adaptive-image/public/smu/news/MicrosoftTeams-image_0.png?itok=cwM2cNhC",
+			"location": "Singapore",
+			"date": "Aug 2021 - Oct 2021",
+			"jobDescAll": [
+				"Led a design sprint with a team of four to ideate and prototype a mobile application - LitApp with seven unique features to overhaul budgeting for young adults",
+				"Directed Lit App's funded Proof of Concept; Interviewed 10 target users to evaluate Lit App prototype; Employed survey company to conduct market research up to 50 participants"
+			],
+			"learnMore": "",
+			"expSkills": [
+				"Pitching",
+				"Project Management",
+				"Figma",
+				"User Research",
+				"Prototyping",
+				"Problem Solving"
+			]
+		},
+		{
+			"title": "1st Runner Up, AWS Build On ASEAN 2021",
+			"company": "Amazon Web Services / Cognizant",
+			"location": "Singapore",
+			"companyLogo": "https://static.wixstatic.com/media/f4de3b_f7df569eb64f4eae963b101ea5a6d1b0~mv2.png/v1/crop/x_371,y_0,w_2765,h_2075/fill/w_928,h_696,al_c,q_95,enc_auto/BuildOnASEAN2021.png",
+			"date": "Jun 2021 - Aug 2021",
+			"jobDescAll": [
+				"Built a telegram bot with team members using Python to recommend top community organisations to volunteer based on distance from user, preferences, and organisation demands to simplify search for volunteer opportunities"
+			],
+			"learnMore": "",
+			"expSkills": [
+				"Python",
+				"Javascript",
+				"Telegram Bot",
+				"Cloud Architecture",
+				"Problem Solving"
+			]
+		},
+		{
+			"title": "Sole Proprietor",
+			"company": "Alvae",
+			"location": "Singapore",
+			"date": "Mar 2020 - Dec 2020",
+			"jobDescAll": [
+				"Fulfilled up to 700 online and offline orders as a local seller on multiple eCommerce platforms - Shopee, Lazada and Carousell; Preferred Shopee Seller with shop rating 4.9/5; Improve store conversion rate and reduce store drop-off rate through performance marketing"
+			],
+			"expSkills": [
+				"Entrepreneurship",
+				"eCommerce",
+				"Performance Marketing",
+				"Business Operations"
+			]
+		}
+	],
+	"projectsAll": [
+		{
+			"title": "Portfolio V2",
+			"position": "Full-Stack Developer",
+			"location": "Singapore",
+			"projectLink": "https://github.com/jx-yan/portfolio-nuxt",
+			"date": "Oct 2022",
+			"projDescAll": [
+				"Overhauled my portfolio website using Vue 3, NuxtJS 3, TailwindCSS, DaisyUI"
+			]
+		},
+		{
+			"title": "Tech Series 2022 Website",
+			"position": "Full-Stack Developer",
+			"location": "Singapore",
+			"date": "July 2022 - Aug 2022",
+			"projDescAll": [
+				"Design and launch website using Figma, NuxtJS, Contentful to support marketing for Ellipsis Tech Series 2022, school flagship event with reach to over 200 students"
+			]
+		},
+		{
+			"title": "Enterprise Solution Development Project",
+			"position": "Full-Stack Developer",
+			"projectLink": "https://github.com/jx-yan/myTeleHealth-doctorUI",
+			"location": "Singapore",
+			"date": "Mar 2022 - Apr 2022",
+			"projDescAll": [
+				"Engineered a website for doctors and patients to host teleconsultation and store medical records with Vue and TailwindCSS as frontend",
+				"Formulated backend with service-oriented architecture using services built with Flask, ExpressJS, RabbitMQ, containerised with Docker"
+			]
+		},
+		{
+			"title": "Portfolio V1",
+			"position": "Full-Stack Developer",
+			"projectLink": "https://github.com/jx-yan/portfolio_web",
+			"location": "Singapore",
+			"date": "Dec 2021",
+			"projDescAll": [
+				"Created my first portfolio website with a Single Page Application (SPA) using Vue 2 and Bootstrap 5"
+			]
+		},
+		{
+			"title": "Web Application Development Project",
+			"position": "Full-Stack Developer",
+			"projectLink": "https://github.com/jx-yan/FoodShare",
+			"location": "Singapore",
+			"date": "Mar 2022 - Apr 2022",
+			"projDescAll": [
+				"Developed a website aimed at reducing food wastage and promote food sharing within community",
+				"Utilized Firebase Authentication and Cloud Firestore to setup website's authentication process and CRUD operations; Deployed website with Firebase Hosting and GitHub as CI/CD pipeline"
+			]
+		}
+	],
+	"designsAll": [
+		{
+			"title": "ShopeePay Revamp",
+			"position": "UX Designer",
+			"projectName": "Shopee Product & Design Challenge 2022",
+			"location": "Singapore",
+			"link": "https://www.figma.com/file/wqUlz0P5j7WyoLqxdoONhq/SPay-Design-Screens?node-id=3%3A3631",
+			"imgLink": "https://lh3.googleusercontent.com/o8KFPvmK0PwKMO1vr6qtnZvdwLEDK7zczxS_wU6iIFpUoAnmtSF-x9so-u8NZlj6WanQy6yySp8R3os87fAl51JqyN93LZaVMR8zI-pn1C1e7tgl95FpDTYT5IfAatM0Xk4sB6QypuuHvS95cWH-kPVuiOoSuHG_C3NB4MGrS_7B9rsLDFUKmHmtaKKns4zFveueL19KjX6w-OMU4KJjg9ifeE1QqIwxDodl67YTljoQbbcLpBuN6QBcca-J5egguvGCGbJnB9mfV5Cpxs6yt4FYXM1zOhmN5pbaBnvRItSRMuXtmtDhAmCNcjyofP6xRHfXPltipwf9yZDStTLNLxjEEq9_C1e3ClmEfVUxJMMi1jJ3PlFvzSq2H5Z8GiyK2nAeSbLW8hvkZzs0KDoCOonj7den4A6L7NpeIFfoLeNLTxQwjTcLEnvkq6qxXE8pOAyrf3LxKHlkLIVDuYdE6_6T4oTjg5uMhCGa7JXgoAu1WmlStTjozVH34zMpHUNnLTJQ08xZVxab1gDNIY9iMp5UQnxj8CtA9wkxiw6hUqh-G9Vavd3IRwm5lkzTQkDBnMiQ8-F1O53aOJ_2M6Bvhw56T-kschj0er18zEA099Z0pY-Vh-NYG4VwZOLxxhS89fvp3-JoLKIbJvEnPCWMDih0Vc9abjbYuH_7xaPdp7pRQHBIyg1QRQarmxlO5pEEHFyWprVeDNImIPaY_u18mg-NAjugZg-nYXwmT3FjW2wSFTqyZL57-OLLfr5zvhjI_afPZ5PCz95W4io11pGqe1phmbI6zF2cUldfeMwpPtiKSuPd8YD0gu3cOPqxQWZujQ8qTUm6zgfy8i_QOHtLKTpovjbTjsr6bmxvJP7Y=w1662-h830-no?authuser=0",
+			"date": "Sep 2022",
+			"desc": "Created a high fidelity prototype to overhaul ShopeePay with new functionalties, look and feel"
+		},
+		{
+			"title": "Ellipsis Website Revamp",
+			"position": "UX Designer",
+			"projectName": "Ellipsis Tech Department",
+			"location": "Singapore",
+			"link": "https://www.figma.com/file/GTUILbqilbdmjif8S7zEKo/Ellipsis-Website-Revamp-Mockup?node-id=14%3A6887",
+			"imgLink": "https://lh3.googleusercontent.com/twpC2Nl-g9uTi6suZqZVPvvZLrIHN4ovBJIrOvYQKzDGh1brWWexAiSdnvRYsZDeljt0kqY_0waS7Q7bhI7sPmZRNmFrwB0GmnCqI2oq2KHoPzabRXJkaS7RO5EszRWVXqF91y3w4jHs-7oF6oI8HxCCNf9i79reOYwP_fKKbqESx921tp4nUF7xiywN6TLzecRgBtd8kBTR4Gzql71FK1D615ak2EPdxgkQrAf4IYE-6XvhEk-moQs_Ygx4fPRtCRHpm1ylWedn-zu1EzXwoOC0kmUE1NCpSTqya1U0_2h9agE8PSlvQdPvrmPZH9QA5ebzc2SbuF6QMe3xCht-f4QQKxJPl4mQMvIO6E3e5jLN82U7VdhSi1EBQ0q-1f6zhujf4RIPzaemR_B1wtHdVPBahEZCDbQf0w6CpzB2DcfnIpOFrgqTEaBTmlldREpXfAqmTfpZ4XB--xBbHBscFH7mFHR34eC_SPtOz7YQPaJ4Kfme5nxus_mb-Lus2xiWHPZWm347EnzJ3s3AzmIsAUZJcN773VMw9jXWL2C31kBOZ8wMf1BPpwcOOrU6BmxZxIcv3bLKdGppN5sdIQBtpr8sw8guG-1UrnflPGwbNRXbNL1_PrDM3IJ5wwfM2hY620BJSCr3rhJtIJcVwt7B9UvuF9Hgkx-pO0LhpSoOd5aS32FLtgC-4slC_G62tEWxcineOw5L8fDlXwbefEP6XvCXxkmHjPdiuFj04AYmJkBYkLg9O5RG9aEXb-66DLJ6SZzGegcEfY3cg8POyFen0XOWHwoTh4YNdRymmi3b_onD-GSi61GTdv99zri9dyQ45stfwPTKNZSUePgzpiyssXRhfGPh36wmB67tbPm5iOW57rDL0j12PXvsYoPcGVyW-bjRAwqf8BwWSWjhbn67zoxFh4G6k0GHIcftaL4GHHo0mBtF-3q1AID9_7Hh0MFxndZTpAm8lXyuR9i3JSuWxELlW7_LhIaIL_oMwqr7ICp0E9qUn1CCeDU3zblCPS0hyAamvU2LY_uZM7NIark=w1884-h790-no?authuser=0",
+			"date": "July 2022 - Aug 2022",
+			"desc": "Designed a new club website for Ellipsis, SCIS's constituent club"
+		},
+		{
+			"title": "Cleara",
+			"position": "UX Designer",
+			"projectName": "Digital Transformation Project",
+			"link": "https://www.figma.com/file/AXgqlAlHA14iptWs5ZVXVb/Cleara?node-id=0%3A1",
+			"imgLink": "https://lh3.googleusercontent.com/4X9RtZLxB3aR85gQsLNt4G9Z6BT7HjIdC7YnQ__8RKKw_iSsd0zDBl0r8yaywLNnGHJUWuBAf5IR6MxQBQwFyMAZeehUGc2S7aNYrt9zAJebKnMoE7QMc54UoKUQ5lMGDRj2Cv3LyP-JKUJSZU8WO9KM969flQjruBFBlf4qo-WfGFHfEd_sL4ktIXThuX7l5-N-Zv14i8j2gg3SzbZDIx432O3CFUBep9g0x6G5vesgGaoNbr2Up5Uxvufv1T_9Lkjgtg336BWOuGp121xRb5p00ntkpXARtoO4SWWM9enuHauZnSeqN3j9h-RXen3LMkhUC3QlT6DtJwM3WvtGneq-kGQe1Fs6c6EueJL9bYjM1_SxjfotbSS2_S6Gwb0-jlP2M3JWB3_RhZjNh1s1Vhpj2CPX6ZEDNymeahya1T5aFSMzj8XHKq_EEUjW-4pKuzQIEMc92UHEv5tu892Qejj2cmDWfsVTtdVMz7h_c90Vr7XtNz5eIhiPmayu8XL4SIh_hAVPRcih9o49ZZI56aNxO_SoCnx6I-aeXmT72PnQd2YYcEceWN-dubpjqatG-6ZiohIN5zvyFnnKiC4Ix-wSaVF4D1XSTFMbHfK7PCEvPhWVuKW_XZLj1weNoTARkYbE5LB1tsF1Mv7q_jclMbJxBXB230YhpMyTfdpZZVM133nKPWLxqT6A3VRJ5t0joFzTsT6pxb-dZTedNIEnP-gblc8M2gBko6FibTudxqp85J-3TSLHOQbyVyPmMTy-JP4purOKC2l5qhV9mB_6MOP0jQrqh0HSs7Ud7KOG0YEyCl38AmlW_bZL-Hb_Z6UjzX9UYmN2kQWSTORVUnFsJNUDN53hs6j4F2aKyiKU=w1523-h757-no?authuser=0",
+			"location": "Singapore",
+			"date": "Mar 2022 - Apr 2022",
+			"desc": "Ideated and designed a mobile application, Cleara, a startup idea on providing a platform for scheduled and on-demand home services with dynamic pricing algorithm"
+		},
+		{
+			"title": "HelpTogether",
+			"position": "UX Designer",
+			"projectName": "Interaction Design Prototype Project",
+			"link": "https://www.figma.com/file/BEF7I26WNRrHzFQaYyPaO5/HelpTogether-Prototype?node-id=13733%3A11303",
+			"imgLink": "https://lh3.googleusercontent.com/4pNGj7ki0IkvpHNcbuIa_1DKVHy_0eghNEurwDQwBtgZ6wOC8djQR-kdloPd9lB1XGZYIaI--jNvx1cRqH_4gyrApFEMNMvryfETAFvnWANj5IssvLKPSaCrjpn3nAlDJxg-9qFGwfqWL40edKRJulfupMk-24iT9k_9Uf262UhfSxvKVI7pLWOYRS-9XJVO7li-vKXYYhFazKXIC7fSUu41pUeH7wZrzLKRGNhmZKy73wzaON5L1jSA6emlqzPnz1BDapC445mdgdzw47ZmQVGC0-QWUYvVKEnn5BrTAqMiMcxHSxjCo5ueLBWm1XyqTFhYuo7zc67K169PNxMix6aZFx-_WkTTFDGUgEb17YcyXDYVsZLircyCO_Rn8dPoQu5bOw8TfUrcUXja3eJNCjLpdJRFkn9M96JOOQMet3hkCT_FYFicKivlB0-HWlP8BSmRllnuvSWp0yctq-yqgz95ilDkI7JIy0-cYRZZjL1LJXfwgbnj1xqj0_cqVrfj1sAK7amTYUu1e3i7Bq-jsFCDl67T5npGJQTImrlkRCy7hPqM-CkfeBK9YFSh0iRqB1hm1_zR7yV4bRGWvtd88RlGn9iFfaeIBBYAHoocG16_Dj0aiKWaP6Mt5Z1T5GCcHp6mjWYVvDiZezhiw6vH0SNwBd6Qy2bu_xFyj-bRN4PYBNfcMCIAmAS9MJ2-nTjdA4m-mcI2f0Sdj1U3ORpQGHjOelx7bmryA6eeAmJoCo6DPR8cvecJxXhCm6OUC38eU5z98bf8GkdDDxTa5lBm8tlfNA1BiWNDsi22klfR54VLAtMo2O6Y9seBn6c3pAsAK0uce3fg98L8KhEJmaNmtyvZfloV0BRirvWrHGO8=w1612-h805-no?authuser=0",
+			"location": "Singapore",
+			"date": "Dec 2021",
+			"desc": "Created design to improve user experience for a mobile application that connects volunteers with community organisations"
+		},
+		{
+			"title": "Lit App",
+			"position": "Team Lead / UX Designer",
+			"projectName": "Citi-SMU Financial Inclusion Hackathon 2021",
+			"link": "https://www.figma.com/file/lci46lnvgcijNNiQMYzNHX/Lit-App?node-id=0%3A1",
+			"imgLink": "https://lh3.googleusercontent.com/WNRydT6foZI0X0g0mMOnBdzkSPwrE4CBTTovI_3pApBNGMiFqScOUla_7OV1GdSh3gZgbD3v_cN7SPuAmCnxRUE29HfR1P7x8crU3LDupdOZtR1luN0MnRXJHIxSL89uD1WW0FA9O1rjeoXZIoegUWO4T3DjQEzc67civH7RojFL8yJhX6h_TpDgEl10LYJ3nHmESncrx3qo2JOazFlpj1reRl5T8l6uXovbYJVR8fExNME7pBjqJzB_8SXZTSQFp-6cFX3QtzSRPW7bgU-yGDQq4dToKDlE9pgR6OdFky5lqDENC4BoYcd4W7Yele11GgX-SBqNgFEX92LlTWeAHpjsfZYd4KSZ7qglgKoS6MA2XFAFICKcvsO-hMEgOiVev6Dl_iRThYyV_h2QW1Jf8JZ6AuY9c8wcCkZnJZn4if3H89AtkexoPH173LgEPupnJNe9zw109C9z_sJ8GYcEDzzGWd1aloF4u8LyachUD1rTQH6R7fdU2faTcLjRfefvVmVrnqfZHr_rjrqh311D4hHhASmSIK5zPVS8m8QfvViIEnd1a06TtC1YBeHEL3Fl9h3FUtGNnkL_zUuc04jOCjF-vqJ3m5qMvi1G48gUI44Zz7WbuoAQK1SRI_rseDWmcDhR24o-zLQdSqtkoU4_t74hWFZjjER2_9k_1FSDtZQvmQzXpRPsrWdF2qS69_iUEN8LZYvOubPJO2QwbcLZZQ7B8uyyzgk_Wn7emrMDaRC0D6qnRQfgn3z_w6Ta0dAF9E4-MhafQtPy6tPJ-Hld-uvsf1SQZxJ6xRy3NTTMolCUxPJOsSdPhqKwxcX-WeqcoBaOUw0AkoDxkuHviz5WIKLDDgkzgDMWHoaOvuArSyaF3EMqAh8QwPqsaKHC9vOhBi32vUeZJp1PZcwiqqsvAzmZ08HwuakcMGS_clnrXRFnAYAkC6OYy7ZLk_Dxom6nlwruFQ6dU9eN0y8gUA8O-YTAEQL29uXbB6KjUMpbXbiXParoslTGLJ3LZDBj42-FQ2ZP41ndMj6Bf8bDCUI=w1630-h815-no?authuser=0",
+			"location": "Singapore",
+			"date": "Mar 2022 - Apr 2022",
+			"desc": "Ideated and prototyped a mobile application - LitApp with seven unique features to empower budgeting for young adults"
 		}
 	]
 }

@@ -63,7 +63,7 @@
 
 <style>
 	[data-theme="night"] .header {
-		background-image: linear-gradient(to top right, #002f4b, #a3421f);
+		background-image: linear-gradient(to top right, #0c496c, #46314b);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -98,9 +98,9 @@
 </style>
 
 <template>
-	<section class="header h-screen" id="header">
-		<div class="grid mx-auto h-screen content-end">
-			<div class="container mx-auto px-8 pb-16">
+	<section class="header h-screen min-h-fit" id="header">
+		<div class="grid grid-row-1 mx-auto h-screen content-end">
+			<div class="container mx-auto px-[8vw] pb-[8vh]">
 				<h1 class="m-0 py-5 font-sans font-bold antialiased drop-shadow-2xl">
 					{{ typeObj.typeValue }}
 					<div class="cursor" :class="{ typing: typeObj.typeStatus }"></div>

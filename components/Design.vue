@@ -31,9 +31,9 @@
 </script>
 
 <template>
-	<section id="design" class="h-auto">
+	<section id="design">
 		<div class="grid mx-auto">
-			<div class="container mx-auto px-8">
+			<div class="container mx-auto px-8 max-w-[1350px] ">
 				<div class="dropdown mt-16 z-50 mb-0 drop-shadow-2xl">
 					<label
 						tabindex="0"
@@ -42,17 +42,17 @@
 					>
 					<ul
 						tabindex="0"
-						class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto -translate-y-5"
+						class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto -translate-y-6 text-center"
 					>
 						<li v-for="design in designsAll">
-							<a class="no-underline" @click="displayDesign(design.title)">
+							<a class="no-underline text-left" @click="displayDesign(design.title)">
 								{{ design.title }}
 							</a>
 						</li>
 					</ul>
 				</div>
 			</div>
-			<div class="container mx-auto p-8 flex-col transition mb-4">
+			<div class="container mx-auto p-8 flex-col max-w-[1350px] mb-4">
 				<div class="card shadow-2xl flex-auto">
 					<img
 						:src="designDisplayed.imgLink"
@@ -89,7 +89,7 @@
 
 <style>
 	[data-theme="night"] #design {
-		background-image: linear-gradient(to bottom right, #002f4b, #a3421f);
+		background-image: linear-gradient(to bottom right, #0c496c, #46314b);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;

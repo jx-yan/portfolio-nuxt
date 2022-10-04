@@ -8,12 +8,12 @@
 
 <template>
 	<section id="projects">
-		<div class="grid mx-auto">
-			<div class="container mx-auto px-8">
+		<div class="grid grid-rows-1 justify-center mx-auto">
+			<div class="px-[4vw]">
 				<h2 class="m-0 font-sans font-bold antialiased drop-shadow-2xl mt-16">
 					Projects
 				</h2>
-				<div class="flex flex-row flex-wrap gap-4 my-16">
+				<div class="flex flex-row flex-wrap gap-4 my-16 max-w-7xl">
 					<ProjectCard
 						v-for="project in projectsAll"
 						:project="project"
@@ -26,7 +26,7 @@
 
 <style>
 	[data-theme="night"] #projects {
-		background-image: linear-gradient(to top right, #002f4b, #a3421f);
+		background-image: linear-gradient(to top right, #0c496c, #46314b);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;

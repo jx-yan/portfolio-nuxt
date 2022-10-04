@@ -9,7 +9,7 @@
 
 <template>
 	<div
-		class="card bg-base-100 image-full lg:basis-96 md:basis-5/6 flex-initial shadow-2xl"
+		class="card bg-base-100 image-full lg:basis-3/12 md:basis-5/12 basis-full flex-initial shadow-2xl"
 	>
 		<div class="card-body text-base-content">
 			<h2

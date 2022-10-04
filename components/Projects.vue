@@ -13,7 +13,7 @@
 				<h2 class="m-0 font-sans font-bold antialiased drop-shadow-2xl mt-16">
 					Projects
 				</h2>
-				<div class="flex flex-row flex-wrap gap-4 my-16">
+				<div class="flex flex-row flex-wrap gap-4 my-16 max-w-7xl">
 					<ProjectCard
 						v-for="project in projectsAll"
 						:project="project"

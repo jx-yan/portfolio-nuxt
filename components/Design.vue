@@ -31,7 +31,7 @@
 </script>
 
 <template>
-	<section id="design" class="h-auto">
+	<section id="design">
 		<div class="grid mx-auto">
 			<div class="container mx-auto pl-[8vw] pr-[6vw]">
 				<div class="dropdown mt-16 z-50 mb-0 drop-shadow-2xl">
@@ -42,10 +42,10 @@
 					>
 					<ul
 						tabindex="0"
-						class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto -translate-y-5"
+						class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto -translate-y-6 text-center"
 					>
 						<li v-for="design in designsAll">
-							<a class="no-underline" @click="displayDesign(design.title)">
+							<a class="no-underline text-left" @click="displayDesign(design.title)">
 								{{ design.title }}
 							</a>
 						</li>

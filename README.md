@@ -28,7 +28,7 @@ Make sure to install the dependencies:
 yarn install
 ```
 
-## Development Server
+# Development Server
 
 Start the development server on http://localhost:3000
 
@@ -36,7 +36,7 @@ Start the development server on http://localhost:3000
 yarn dev
 ```
 
-## Production
+# Production
 
 Build the application for production:
 

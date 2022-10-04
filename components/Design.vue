@@ -31,7 +31,7 @@
 </script>
 
 <template>
-	<section id="design" class="h-screen">
+	<section id="design" class="h-auto">
 		<div class="grid mx-auto">
 			<div class="container mx-auto px-8">
 				<div class="dropdown mt-16 z-50 mb-0 drop-shadow-2xl">
@@ -52,7 +52,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="container mx-auto p-8 flex-col transition">
+			<div class="container mx-auto p-8 flex-col transition mb-4">
 				<div class="card shadow-2xl flex-auto">
 					<img
 						:src="designDisplayed.imgLink"

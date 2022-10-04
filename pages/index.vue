@@ -22,13 +22,13 @@
 <template>
 	<div class="drawer prose max-w-none scroll-smooth">
 		<input id="my-drawer" type="checkbox" class="drawer-toggle" />
-		<div class="drawer-content h-screen">
+		<div class="drawer-content h-auto">
 			<!-- Navbar -->
 			<div class="fixed w-screen z-50">
 				<!-- Drawer Label -->
 				<label
 					for="my-drawer"
-					class="btn d-btn text-base-content border-0 ml-8 mt-6 shadow-lg"
+					class="btn d-btn text-base-content border-0 ml-[2vw] mt-[2vw] shadow-lg"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@
 
 				<!-- Top Right Navbar -->
 				<ul
-					class="menu menu-horizontal bg-base-100 rounded-box p-0 shadow-lg mr-8 float-right sm:visible invisible"
+					class="menu menu-horizontal bg-base-100 rounded-box p-0 shadow-lg mr-[3vw] float-right sm:visible invisible"
 				>
 					<li>
 						<a href="#header" class="no-underline">

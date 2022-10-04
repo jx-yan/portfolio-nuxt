@@ -1,4 +1,4 @@
-import('tailwindcss').Config
+import("tailwindcss").Config;
 
 module.exports = {
 	content: [
@@ -12,17 +12,17 @@ module.exports = {
 	],
 	theme: {
 		extend: {},
-    fontFamily: {
-      'sans': ['Open Sans', 'sans-serif'],
-      'serif': ['Sources Serif Pro', 'serif'],
-      'mono': ['Fira mono', 'monospace'],
-    }
+		fontFamily: {
+			sans: ["Open Sans", "sans-serif"],
+			serif: ["Sources Serif Pro", "serif"],
+			mono: ["Fira mono", "monospace"],
+		},
+		container: {
+			center: true,
+		},
 	},
 	plugins: [require("@tailwindcss/typography"), require("daisyui")],
 	daisyui: {
-		themes: [
-			"night",
-			"winter",
-		],
+		themes: ["night", "winter"],
 	},
 };

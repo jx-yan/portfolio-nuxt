@@ -9,7 +9,7 @@
 <template>
 	<section id="projects">
 		<div class="grid mx-auto">
-			<div class="container mx-auto px-8">
+			<div class="container mx-auto pl-[8vw] pr-[6vw]">
 				<h2 class="m-0 font-sans font-bold antialiased drop-shadow-2xl mt-16">
 					Projects
 				</h2>
@@ -26,7 +26,7 @@
 
 <style>
 	[data-theme="night"] #projects {
-		background-image: linear-gradient(to top right, #002f4b, #a3421f);
+		background-image: linear-gradient(to top right, #0D324D, #7F5A83);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;

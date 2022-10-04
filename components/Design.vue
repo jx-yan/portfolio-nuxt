@@ -33,11 +33,11 @@
 <template>
 	<section id="design" class="h-auto">
 		<div class="grid mx-auto">
-			<div class="container mx-auto px-8">
+			<div class="container mx-auto pl-[8vw] pr-[6vw]">
 				<div class="dropdown mt-16 z-50 mb-0 drop-shadow-2xl">
 					<label
 						tabindex="0"
-						class="btn btn-outline btn-secondary m-1 text-lg font-sans normal-case animate-bounce drop-shadow-2xl shadow-2xl"
+						class="btn btn-outline btn-secondary-focus m-1 text-lg font-sans normal-case animate-bounce drop-shadow-2xl shadow-2xl"
 						>Design Portfolio</label
 					>
 					<ul
@@ -52,7 +52,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="container mx-auto p-8 flex-col transition mb-4">
+			<div class="container mx-auto p-8 flex-col pl-[8vw] pr-[6vw] mb-4">
 				<div class="card shadow-2xl flex-auto">
 					<img
 						:src="designDisplayed.imgLink"
@@ -89,7 +89,7 @@
 
 <style>
 	[data-theme="night"] #design {
-		background-image: linear-gradient(to bottom right, #002f4b, #a3421f);
+		background-image: linear-gradient(to bottom right, #0D324D, #7F5A83);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;

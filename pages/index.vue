@@ -171,7 +171,7 @@
 			<ul
 				class="menu overflow-y-auto w-60 bg-base-100 text-base-content m-0 p-0"
 			>
-				<ul class="menu bg-base-100 font-bold rounded-box m-0 pl-0 pr-2 pt-2">
+				<ul class="menu font-bold m-0 pl-0 pr-2 pt-2">
 					<li>
 						<a href="#header" class="no-underline">
 							<svg

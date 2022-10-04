@@ -9,8 +9,7 @@
 
 <style scoped>
 	[data-theme="night"] .logo {
-		--tw-bg-opacity: 0.8;
-		background-color: var(--tw-prose-headings);
+		background-color: hsl(var(--s));
 	}
 </style>
 
@@ -22,25 +21,19 @@
 				class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"
 			></span
 		></span>
-		<div class="card bg-base-100 shadow-xl mt-0 max-w-6xl">
-			<div class="card-body flex">
-				<div class="flex-initial">
-					<img
-						class="logo m-0 rounded-3xl px-4 py-2 max-w-xs max-h-28 inline-flex float-right ml-5 md:visible invisible w-0 h-0 md:w-auto md:h-auto"
-						:src="expDetails.companyLogo"
-						v-if="expDetails.companyLogo"
-					/>
-					<h3
-						class="card-title font-bold antialiased drop-shadow-2xl m-0 shrink"
-					>
-						{{ expDetails.title }}
-					</h3>
-					<p class="m-0 font-medium shrink">{{ expDetails.company }}</p>
-					<p class="m-0">{{ expDetails.date }}</p>
-					<ul class="m-0 font-medium text-sm text-base-content">
-						<li v-for="jobDesc in expDetails.jobDescAll">{{ jobDesc }}</li>
-					</ul>
-				</div>
+		<div class="card bg-base-100 shadow-xl mt-0">
+			<div class="card-body">
+				<h3 class="card-title font-bold antialiased drop-shadow-2xl m-0 shrink">
+					{{ expDetails.title }}
+				</h3>
+				<p class="m-0 font-medium shrink">{{ expDetails.company }}</p>
+				<p class="m-0">{{ expDetails.date }}</p>
+				<ul class="m-0 font-medium text-xs md:text-sm text-base-content">
+					<li class="" v-for="jobDesc in expDetails.jobDescAll">
+						{{ jobDesc }}
+					</li>
+				</ul>
+
 				<div class="card-actions mt-2">
 					<NuxtLink
 						:to="expDetails.learnMore"
@@ -52,10 +45,10 @@
 						</button>
 					</NuxtLink>
 					<div
-						class="flex flex-row flex-wrap grow justify-end gap-4 p-3 self-end"
+						class="flex flex-row flex-wrap grow justify-end gap-4 p-2 self-end"
 					>
 						<div
-							class="text-xs badge badge-outline inline-flex p-4"
+							class="text-xs badge badge-outline inline-flex p-3"
 							v-for="expSkill in expDetails.expSkills"
 						>
 							{{ expSkill }}

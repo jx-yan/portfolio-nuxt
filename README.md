@@ -4,8 +4,6 @@
 
 <h4 align="center">Link: <a href="https://jiaxingyan.netlify.app/">jiaxingyan.netlify.app</a></h4>
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
-
 ---
 
 ## Table of Contents

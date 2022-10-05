@@ -145,7 +145,7 @@
 							</svg>
 						</a>
 					</li> -->
-					<div class="form-control flex place-content-center">
+					<div class="form-control flex place-content-center p-[12px] pr-[18px]">
 						<label class="label cursor-pointer">
 							<input
 								type="checkbox"

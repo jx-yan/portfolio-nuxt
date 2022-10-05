@@ -45,7 +45,7 @@
 						</button>
 					</NuxtLink>
 					<div
-						class="flex flex-row flex-wrap grow justify-end gap-4 p-2 self-end"
+						class="flex flex-row flex-wrap grow justify-end gap-2 p-2 self-end"
 					>
 						<div
 							class="text-xs badge badge-outline inline-flex p-3"

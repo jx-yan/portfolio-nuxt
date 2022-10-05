@@ -45,7 +45,10 @@
 						class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto -translate-y-6 text-center"
 					>
 						<li v-for="design in designsAll">
-							<a class="no-underline text-left" @click="displayDesign(design.title)">
+							<a
+								class="no-underline text-left"
+								@click="displayDesign(design.title)"
+							>
 								{{ design.title }}
 							</a>
 						</li>
@@ -64,20 +67,28 @@
 							<h2 class="m-0 text-base-content inline-flex">
 								{{ designDisplayed.title }}
 							</h2>
-							
 						</div>
 						<p class="m-0 text-base-content text-lg">
 							{{ designDisplayed.position }}
 						</p>
 						<p class="m-0 text-base-content">{{ designDisplayed.date }}</p>
-						<p class="m-0 text-base-content font-mono lg:text-lg md:text-sm">{{ designDisplayed.desc }}</p>
-						<div class="card-actions justify-end mt-3">
-							<span class="m-0 text-secondary-focus justify-start pName font-bold md:text-base text-sm inline-flex flex-wrap">{{
-								designDisplayed.projectName
-							}}</span>
+						<p class="m-0 text-base-content font-mono lg:text-lg md:text-sm">
+							{{ designDisplayed.desc }}
+						</p>
+						<div class="card-actions justify-end">
+							<span
+								class="m-0 mt-5 text-secondary-focus justify-start pName font-bold md:text-base text-sm inline-flex flex-wrap"
+								>{{ designDisplayed.projectName }}</span
+							>
 							<span class="grow"></span>
-							<a :href="designDisplayed.link" class="no-underline" target="_blank">
-								<button class="btn btn-secondary shadow-2xl drop-shadow-2xl">View Prototype</button>
+							<a
+								:href="designDisplayed.link"
+								class="no-underline pt-4"
+								target="_blank"
+							>
+								<button class="btn btn-secondary shadow-2xl drop-shadow-2xl">
+									View Prototype
+								</button>
 							</a>
 						</div>
 					</div>
@@ -89,7 +100,7 @@
 
 <style>
 	[data-theme="night"] #design {
-		background-image: linear-gradient(to bottom right, #0D324D, #7F5A83);
+		background-image: linear-gradient(to bottom right, #0d324d, #7f5a83);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -103,6 +114,4 @@
 	[data-theme="night"] .pName {
 		color: hsl(var(--nc));
 	}
-
-
 </style>

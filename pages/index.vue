@@ -164,6 +164,7 @@
 				<Experience></Experience>
 				<Projects></Projects>
 				<Design></Design>
+				<Footer></Footer>
 			</div>
 		</div>
 		<div class="drawer-side">

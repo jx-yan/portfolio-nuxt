@@ -2,6 +2,25 @@
 	"expDetailsAll": [
 		{
 			"title": "Product Management Intern",
+			"company": "Grab",
+			"companyLogo": "https://www.grab.com/wp-content/uploads/2020/03/Grab-Logo-Black.png",
+			"location": "Singapore",
+			"date": "Jan 2023 - May 2023",
+			"jobDescAll": [
+				""
+			],
+			"expSkills": [
+				"Product Management",
+				"Project Management",
+				"Jira",
+				"Confluence",
+				"Business Analysis",
+				"Problem Solving",
+				"Stakeholder Management"
+			]
+		},
+		{
+			"title": "Product Management Intern",
 			"company": "Circles.Life",
 			"companyLogo": "https://www.circles.life/sg/assets/circles-logo-dark.svg",
 			"location": "Singapore",

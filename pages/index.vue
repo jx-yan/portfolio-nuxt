@@ -5,11 +5,17 @@
 	onMounted(() => {
 		themeChange(false);
 	});
-
 </script>
 
 <style>
 	@import "https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap";
+
+	:root {
+		background-image: linear-gradient(to top right, #0D324D, #7F5A83);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
 	[data-theme="winter"] .d-btn {
 		background-color: hsl(var(--b1));
@@ -145,7 +151,9 @@
 							</svg>
 						</a>
 					</li> -->
-					<div class="form-control flex place-content-center p-[12px] pr-[18px]">
+					<div
+						class="form-control flex place-content-center p-[12px] pr-[18px]"
+					>
 						<label class="label cursor-pointer">
 							<input
 								type="checkbox"

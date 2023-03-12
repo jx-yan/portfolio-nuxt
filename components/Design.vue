@@ -43,8 +43,8 @@
 <template>
 	<section id="design">
 		<div class="grid mx-auto">
-			<div class="container-fluid ml-[8vw] mr-[6vw]">
-				<div class="dropdown mt-16 z-50 mb-0 drop-shadow-2xl">
+			<div class="container-fluid ml-[8vw] mr-[6vw] mt-0">
+				<div class="dropdown mt-[6vw] z-50 mb-0 drop-shadow-2xl">
 					<label
 						tabindex="0"
 						class="btn btn-outline btn-secondary-focus m-1 text-lg font-sans normal-case animate-bounce drop-shadow-2xl shadow-2xl"
@@ -65,7 +65,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="container-fluid ml-[8vw] mr-[6vw] pt-[4vw] flex-col mb-4">
+			<div class="container-fluid ml-[8vw] mr-[6vw] flex-col mb-4 mt-[6vw]">
 				<div class="card shadow-2xl flex-auto">
 					<img
 						:src="designDisplayed.imgLink"

@@ -22,7 +22,7 @@
 				Projects
 			</h2>
 			<div class="container-fluid ml-[8vw] mr-[6vw]">
-				<div class="flex flex-row flex-wrap gap-4 my-16">
+				<div class="flex flex-row flex-wrap gap-4 my-16 mb-[0.5vh]">
 					<ProjectCard
 						v-for="project in projectsAll"
 						:project="project"

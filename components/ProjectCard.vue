@@ -13,7 +13,7 @@
 	>
 		<div class="card-body text-base-content">
 			<h2
-				class="card-title projTitle m-0 flex-none h-14 drop-shadow-2xl font-extrabold"
+				class="card-title projTitle m-0 flex-none pb-2 drop-shadow-2xl font-extrabold"
 			>
 				{{ project.title }}
 			</h2>

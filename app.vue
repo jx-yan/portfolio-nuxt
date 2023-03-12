@@ -52,7 +52,7 @@
 		meta: [
 			{ 
 				name: "description", 
-				content: "My amazing site." 
+				content: "My 'amazing' site." 
 			},
 			{
 				name:"image",

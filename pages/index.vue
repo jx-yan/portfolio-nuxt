@@ -9,20 +9,50 @@
 
 <style>
 	@import "https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap";
+	
+	.d-btn {
+		background-color: hsl(var(--b1));
+	}
 
-	:root {
+	:root #header {
 		background-image: linear-gradient(to top right, #0D324D, #7F5A83);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
-	[data-theme="winter"] .d-btn {
-		background-color: hsl(var(--b1));
+	:root #experience {
+		background-image: linear-gradient(to bottom right, #0D324D, #7F5A83);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
-	[data-theme="winter"] .d-btn:hover {
-		background-color: hsl(var(--b3));
+
+	:root #projects {
+		background-image: linear-gradient(to top right, #0D324D, #7F5A83);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
+
+	:root #design {
+		background-image: linear-gradient(to bottom right, #0d324d, #7f5a83);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	:root .pName {
+		color: hsl(var(--nc));
+	}
+
+	:root #footer {
+		background-image: linear-gradient(to top right, #0d324d, #7f5a83);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
 </style>
 
 <template>
@@ -105,7 +135,7 @@
 							</svg>
 						</a>
 					</li>
-					<li>
+					<li class="mr-2">
 						<a href="#design" class="no-underline">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -119,52 +149,6 @@
 							</svg>
 						</a>
 					</li>
-					<!-- <li>
-						<a href="#skills" class="no-underline">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								class="w-6 h-6"
-							>
-								<path
-									fill-rule="evenodd"
-									d="M11.078 2.25c-.917 0-1.699.663-1.85 1.567L9.05 4.889c-.02.12-.115.26-.297.348a7.493 7.493 0 00-.986.57c-.166.115-.334.126-.45.083L6.3 5.508a1.875 1.875 0 00-2.282.819l-.922 1.597a1.875 1.875 0 00.432 2.385l.84.692c.095.078.17.229.154.43a7.598 7.598 0 000 1.139c.015.2-.059.352-.153.43l-.841.692a1.875 1.875 0 00-.432 2.385l.922 1.597a1.875 1.875 0 002.282.818l1.019-.382c.115-.043.283-.031.45.082.312.214.641.405.985.57.182.088.277.228.297.35l.178 1.071c.151.904.933 1.567 1.85 1.567h1.844c.916 0 1.699-.663 1.85-1.567l.178-1.072c.02-.12.114-.26.297-.349.344-.165.673-.356.985-.57.167-.114.335-.125.45-.082l1.02.382a1.875 1.875 0 002.28-.819l.923-1.597a1.875 1.875 0 00-.432-2.385l-.84-.692c-.095-.078-.17-.229-.154-.43a7.614 7.614 0 000-1.139c-.016-.2.059-.352.153-.43l.84-.692c.708-.582.891-1.59.433-2.385l-.922-1.597a1.875 1.875 0 00-2.282-.818l-1.02.382c-.114.043-.282.031-.449-.083a7.49 7.49 0 00-.985-.57c-.183-.087-.277-.227-.297-.348l-.179-1.072a1.875 1.875 0 00-1.85-1.567h-1.843zM12 15.75a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z"
-									clip-rule="evenodd"
-								/>
-							</svg>
-						</a>
-					</li>
-					<li>
-						<a href="#articles" class="no-underline">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								class="w-6 h-6"
-							>
-								<path
-									fill-rule="evenodd"
-									d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
-									clip-rule="evenodd"
-								/>
-							</svg>
-						</a>
-					</li> -->
-					<div
-						class="form-control flex place-content-center p-[12px] pr-[18px]"
-					>
-						<label class="label cursor-pointer">
-							<input
-								type="checkbox"
-								class="toggle mx-auto"
-								data-toggle-theme="night,winter"
-								v-model="colorTheme"
-								false-value="Night"
-								true-value="Winter"
-							/>
-						</label>
-					</div>
 				</ul>
 			</div>
 			<div>
@@ -250,55 +234,7 @@
 							<h5 class="m-0">Design Portfolio</h5>
 						</a>
 					</li>
-					<!-- <li>
-						<a href="#skills" class="no-underline">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								class="w-6 h-6"
-							>
-								<path
-									fill-rule="evenodd"
-									d="M11.078 2.25c-.917 0-1.699.663-1.85 1.567L9.05 4.889c-.02.12-.115.26-.297.348a7.493 7.493 0 00-.986.57c-.166.115-.334.126-.45.083L6.3 5.508a1.875 1.875 0 00-2.282.819l-.922 1.597a1.875 1.875 0 00.432 2.385l.84.692c.095.078.17.229.154.43a7.598 7.598 0 000 1.139c.015.2-.059.352-.153.43l-.841.692a1.875 1.875 0 00-.432 2.385l.922 1.597a1.875 1.875 0 002.282.818l1.019-.382c.115-.043.283-.031.45.082.312.214.641.405.985.57.182.088.277.228.297.35l.178 1.071c.151.904.933 1.567 1.85 1.567h1.844c.916 0 1.699-.663 1.85-1.567l.178-1.072c.02-.12.114-.26.297-.349.344-.165.673-.356.985-.57.167-.114.335-.125.45-.082l1.02.382a1.875 1.875 0 002.28-.819l.923-1.597a1.875 1.875 0 00-.432-2.385l-.84-.692c-.095-.078-.17-.229-.154-.43a7.614 7.614 0 000-1.139c-.016-.2.059-.352.153-.43l.84-.692c.708-.582.891-1.59.433-2.385l-.922-1.597a1.875 1.875 0 00-2.282-.818l-1.02.382c-.114.043-.282.031-.449-.083a7.49 7.49 0 00-.985-.57c-.183-.087-.277-.227-.297-.348l-.179-1.072a1.875 1.875 0 00-1.85-1.567h-1.843zM12 15.75a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z"
-									clip-rule="evenodd"
-								/>
-							</svg>
-							<h5 class="m-0">Skills</h5>
-						</a>
-					</li> -->
-					<!-- <li>
-						<a href="#articles" class="no-underline">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="currentColor"
-								class="w-6 h-6"
-							>
-								<path
-									fill-rule="evenodd"
-									d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
-									clip-rule="evenodd"
-								/>
-							</svg>
-							<h5 class="m-0">Interesting Reads</h5>
-						</a>
-					</li> -->
 				</ul>
-				<div class="flex grow"></div>
-				<div class="form-control place-items-center">
-					<label class="label cursor-pointer">
-						<p class="p-5 font-medium font-sans">{{ colorTheme }} Mode</p>
-						<input
-							type="checkbox"
-							class="toggle"
-							data-toggle-theme="night,winter"
-							v-model="colorTheme"
-							false-value="Night"
-							true-value="Winter"
-						/>
-					</label>
-				</div>
 			</ul>
 		</div>
 	</div>

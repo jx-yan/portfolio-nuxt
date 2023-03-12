@@ -1,26 +1,21 @@
 <style>
-	[data-theme="night"] #footer {
-		background-image: linear-gradient(to top right, #0d324d, #7f5a83);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	[data-theme="winter"] #footer {
+	
+	/* [data-theme="winter"] #footer {
 		background-image: linear-gradient(to bottom left, #8080ee, #f4d8bb);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-	}
+	} */
 </style>
 
 <template>
 	<section id="footer">
 		<div class="grid mx-auto py-[4vh]">
-			<div class="container mx-auto pl-[8vw] pr-[6vw]">
+			<div class="container-fluid pl-[8vw] pr-[6vw]">
 				<h5 class="font-bold drop-shadow-2xl antialiased uppercase tracking-widest">Let's Connect</h5>
 				<div class="py-[5vh]">
                     <!-- LinkedIn -->
-					<a href="https://www.linkedin.com/in/jiaxingyan/" class="inline-block pr-[5vw] drop-shadow-2xl">
+					<a href="https://www.linkedin.com/in/jiaxingyan/" class="inline-block mr-[5vw] drop-shadow-2xl">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="24"

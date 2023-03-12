@@ -62,18 +62,6 @@
 </script>
 
 <style>
-	[data-theme="night"] .header {
-		background-image: linear-gradient(to top right, #0D324D, #7F5A83);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	[data-theme="winter"] .header {
-		background-image: linear-gradient(to bottom left, #8080ee, #f4d8bb);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
 
 	div.cursor {
 		display: inline-block;

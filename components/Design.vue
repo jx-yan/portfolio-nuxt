@@ -1,3 +1,13 @@
+<style>
+	
+	/* [data-theme="winter"] #footer {
+		background-image: linear-gradient(to bottom left, #8080ee, #f4d8bb);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	} */
+</style>
+
 <script setup>
 	var designsAll = null;
 
@@ -33,7 +43,7 @@
 <template>
 	<section id="design">
 		<div class="grid mx-auto">
-			<div class="container mx-auto pl-[8vw] pr-[6vw]">
+			<div class="container-fluid ml-[8vw] mr-[6vw]">
 				<div class="dropdown mt-16 z-50 mb-0 drop-shadow-2xl">
 					<label
 						tabindex="0"
@@ -55,7 +65,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="container mx-auto p-8 flex-col pl-[8vw] pr-[6vw] mb-4">
+			<div class="container-fluid ml-[8vw] mr-[6vw] pt-[4vw] flex-col mb-4">
 				<div class="card shadow-2xl flex-auto">
 					<img
 						:src="designDisplayed.imgLink"
@@ -97,21 +107,3 @@
 		</div>
 	</section>
 </template>
-
-<style>
-	[data-theme="night"] #design {
-		background-image: linear-gradient(to bottom right, #0d324d, #7f5a83);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	[data-theme="winter"] #design {
-		background-image: linear-gradient(to top left, #8080ee, #f4d8bb);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	[data-theme="night"] .pName {
-		color: hsl(var(--nc));
-	}
-</style>

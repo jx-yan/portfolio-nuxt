@@ -9,7 +9,7 @@
 
 <template>
 	<div
-		class="card bg-base-100 image-full lg:basis-[400px] md:basis-5/6 flex-initial shadow-2xl"
+		class="card bg-base-100 image-full lg:basis-[400px] md:basis-5/6 grow shadow-2xl"
 	>
 		<div class="card-body text-base-content">
 			<h2
@@ -49,8 +49,7 @@
 
 <style scoped>
 	.card {
-		background-image: url("https://res.cloudinary.com/dymyh1ea3/image/upload/v1664855909/nasa-earth-bg_v3tnjg.jpg");
-		background-size: cover;
+		background-color: hsl(var(--b1));
 	}
 
 	[data-theme="night"] .projTitle {

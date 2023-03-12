@@ -99,6 +99,26 @@
 	],
 	"projectsAll": [
 		{
+			"title": "Interoperable QR Code - NETS x SMU Final Year Project",
+			"position": "Full-Stack Developer",
+			"location": "Singapore",
+			"projectLink": "",
+			"date": "Dec 2022 - Apr 2023",
+			"projDescAll": [
+				"Designed a system for NETS that allows customers to pay merchants with an interoperable QR code regardless of e-wallet they are using; Developed four mobile applications with React Native, Prisma and Planetscale, an admin web app with Next 13, Springboot, MongoDB as MVP for Proof of Concept; Managed project based on scrumban workflow using Slack, Jira, and Confluence"
+			]
+		},
+		{
+			"title": "Software Project Management",
+			"position": "Full-Stack Developer",
+			"location": "Singapore",
+			"projectLink": "",
+			"date": "Sep 2022 - Oct 2022",
+			"projDescAll": [
+				"Constructed a learning management web application with 3 scrumban sprints to help learners to map learning journeys with courses and skills; Implemented tech stack with Nuxt 3 and TailwindCSS as frontend, ExpressJS, Prisma and PlanetScale (MySQL database) as backend"
+			]
+		},
+		{
 			"title": "Portfolio V2",
 			"position": "Full-Stack Developer",
 			"location": "Singapore",

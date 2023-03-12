@@ -96,7 +96,7 @@
 				Jiaxing's Website
 			</h2>
 			<h3 class="m-0 py-5 drop-shadow-2xl italic">
-				Aspiring Product Manager and Frontend Engineer
+				Aspiring Product Manager and Software Engineer
 			</h3>
 		</div>
 		<p class="m-0 font-medium py-5 antialiased drop-shadow-2xl text-center mt-[10vh] mr-[2vw]">

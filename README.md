@@ -1,58 +1,42 @@
-<h1 align="center">My Portfolio Website</h1>
+# Nuxt 3 Minimal Starter
 
-<p align="center">My Portfolio website developed using Nuxt 3, Tailwind and DaisyUI</p>
-
-<h4 align="center">Link: <a href="https://jiaxingyan.netlify.app/">jiaxingyan.netlify.app</a></h4>
-
----
-
-## Table of Contents
-
-- [Features](#features)
-- [Setup](#setup)
-- [Author](#author)
-
----
-
-## Features
-- Developed with Nuxt 3, Tailwind and DaisyUI ✨
-- Single Page Application ✨
-- Responsive ✨
-
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
+# yarn
 yarn install
+
+# npm
+npm install
+
+# pnpm
+pnpm install
 ```
 
-### Development Server
+## Development Server
 
 Start the development server on http://localhost:3000
 
 ```bash
-yarn dev
+npm run dev
 ```
 
-### Production
+## Production
 
 Build the application for production:
 
 ```bash
-yarn build
+npm run build
 ```
 
 Locally preview production build:
 
 ```bash
-yarn preview
+npm run preview
 ```
 
-## Author
-👤 **Yan Jiaxing**
-
-* Github: [@jx-yan](https://github.com/jx-yan)
-* LinkedIn: [@jiaxingyan](https://www.linkedin.com/in/jiaxingyan/)
-* Portfolio: [jiaxingyan.netlify.app](https://jiaxingyan.netlify.app/)
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

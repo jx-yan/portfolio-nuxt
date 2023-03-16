@@ -1,10 +1,4 @@
 <script setup>
-	import { themeChange } from "theme-change";
-	var colorTheme = ref("Night");
-
-	onMounted(() => {
-		themeChange(false);
-	});
 </script>
 
 <style>

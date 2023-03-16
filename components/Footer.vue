@@ -15,7 +15,7 @@
 				<h5 class="font-bold drop-shadow-2xl antialiased uppercase tracking-widest">Let's Connect</h5>
 				<div class="py-[5vh]">
                     <!-- LinkedIn -->
-					<a href="https://www.linkedin.com/in/jiaxingyan/" class="inline-block mr-[5vw] drop-shadow-2xl">
+					<a href="https://www.linkedin.com/in/jiaxingyan/" target="_blank" class="inline-block mr-[5vw] drop-shadow-2xl">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="24"
@@ -29,7 +29,7 @@
 						</svg>
 					</a>
                     <!-- Github -->
-					<a href="https://github.com/jx-yan" class="inline-block drop-shadow-2xl">
+					<a href="https://github.com/jx-yan" target="_blank" class="inline-block drop-shadow-2xl">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="24"

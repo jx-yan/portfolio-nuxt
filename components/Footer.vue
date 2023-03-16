@@ -10,7 +10,7 @@
 
 <template>
 	<section id="footer">
-		<div class="grid mx-auto py-[6vw]">
+		<div class="grid mx-auto py-16">
 			<div class="container-fluid pl-[8vw] pr-[6vw]">
 				<h5 class="font-bold drop-shadow-2xl antialiased uppercase tracking-widest">Let's Connect</h5>
 				<div class="py-[5vh]">

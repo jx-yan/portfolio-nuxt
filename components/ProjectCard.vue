@@ -1,3 +1,17 @@
+<style scoped>
+	.card {
+		background-color: hsl(var(--b1));
+	}
+
+	.projTitle {
+		color: hsl(var(--bc));
+	}
+
+	.projContent {
+		color: hsl(var(--nc));
+	}
+</style>
+
 <script setup>
 	const props = defineProps({
 		project: {
@@ -46,25 +60,3 @@
 		</div>
 	</div>
 </template>
-
-<style scoped>
-	.card {
-		background-color: hsl(var(--b1));
-	}
-
-	[data-theme="night"] .projTitle {
-		color: hsl(var(--bc));
-	}
-
-	[data-theme="winter"] .projTitle {
-		color: hsl(var(--b1));
-	}
-
-	[data-theme="night"] .projContent {
-		color: hsl(var(--nc));
-	}
-
-	[data-theme="winter"] .projContent {
-		color: hsl(var(--b1));
-	}
-</style>

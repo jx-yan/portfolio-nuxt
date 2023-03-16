@@ -59,6 +59,12 @@
 				content:"./assets/nasa-earth-bg.jpg"
 			}
 		],
+		link: [
+			{
+				rel: "icon",
+				type: "image/x-icon",
+				href: "./assets/favicon.ico"}
+		]
 	});
 </script>
 

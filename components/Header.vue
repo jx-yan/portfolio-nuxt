@@ -87,7 +87,7 @@
 
 <template>
 	<section class="header grid h-screen place-content-center" id="header">
-		<div class="text-center p-[2vw] mt-[30vh] mr-[2vw]">
+		<div class="text-center mt-[30vh]">
 			<h1 class="m-0 py-5 font-sans font-bold antialiased drop-shadow-2xl">
 				{{ typeObj.typeValue }}
 				<div class="cursor" :class="{ typing: typeObj.typeStatus }"></div>
@@ -95,11 +95,11 @@
 			<h2 class="m-0 py-5 font-sans font-bold antialiased drop-shadow-2xl">
 				Jiaxing's Website
 			</h2>
-			<h3 class="m-0 py-5 drop-shadow-2xl italic">
-				Aspiring Product Manager and Software Engineer
+			<h3 class="m-0 drop-shadow-2xl italic p-10">
+				Aspiring Product Manager & Frontend Engineer
 			</h3>
 		</div>
-		<p class="m-0 font-medium py-5 antialiased drop-shadow-2xl text-center mt-[10vh] mr-[2vw]">
+		<p class="m-0 font-medium p-5 antialiased drop-shadow-2xl text-center mt-[5vw]">
 			Built with
 			<svg
 				viewBox="0 0 221 65"

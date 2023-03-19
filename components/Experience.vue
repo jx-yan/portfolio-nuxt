@@ -16,11 +16,11 @@
 </style>
 
 <template>
-	<section id="experience" class="m-0 content-center pt-16">
-		<h2 class="m-0 font-sans font-bold antialiased drop-shadow-2xl ml-[8vw] mr-[6vw]">
+	<section id="experience" class="m-0 pt-16">
+		<h2 class="m-0 font-sans font-bold antialiased drop-shadow-2xl ml-[8vw] mr-[6vw] text-center">
 			Experience
 		</h2>
-		<div class="flex flex-col ml-[8vw] mr-[6vw] mt-16">
+		<div class="flex flex-col ml-[8vw] mr-[6vw] mt-[1vw]">
 			<div class="flex flex-row">
 				<div
 					class="flex-none bg-base-100 shadow-2xl rounded-3xl mt-8 md:visible invisible w-0 h-0 md:w-4 md:h-auto"

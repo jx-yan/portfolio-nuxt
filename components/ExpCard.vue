@@ -26,7 +26,7 @@
 				<h3 class="card-title font-bold antialiased drop-shadow-2xl m-0 shrink">
 					{{ expDetails.title }}
 				</h3>
-				<p class="m-0 font-medium shrink">{{ expDetails.company }}</p>
+				<p class="m-0 font-bold text-lg shrink">{{ expDetails.company }}</p>
 				<p class="m-0">{{ expDetails.date }}</p>
 				<ul class="m-0 font-medium text-xs md:text-sm text-base-content">
 					<li class="" v-for="jobDesc in expDetails.jobDescAll">

@@ -18,11 +18,11 @@
 <template>
 	<section id="projects">
 		<div class="grid mx-auto">
-			<h2 class="m-0 font-sans font-bold antialiased drop-shadow-2xl mt-16 ml-[8vw] mr-[6vw]">
+			<h2 class="m-0 font-sans font-bold antialiased drop-shadow-2xl mt-16 ml-[8vw] mr-[6vw] mb-6 text-center">
 				Projects
 			</h2>
-			<div class="container-fluid ml-[8vw] mr-[6vw]">
-				<div class="flex flex-row flex-wrap gap-4 my-16 mb-[0.5vh]">
+			<div class="container-fluid ml-[8vw] mr-[6vw] mt-[1vw]">
+				<div class="flex flex-row flex-wrap gap-4 mt-[1vw]">
 					<ProjectCard
 						v-for="project in projectsAll"
 						:project="project"

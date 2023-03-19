@@ -11,15 +11,15 @@
 <template>
 	<section id="footer">
 		<div class="grid mx-auto py-16">
-			<div class="container-fluid pl-[8vw] pr-[6vw]">
-				<h5 class="font-bold drop-shadow-2xl antialiased uppercase tracking-widest">Let's Connect</h5>
+			<div class="container-fluid pl-[8vw] pr-[6vw] text-center">
+				<h5 class="font-bold drop-shadow-2xl antialiased uppercase tracking-widest text-lg">Let's Connect</h5>
 				<div class="py-[5vh]">
                     <!-- LinkedIn -->
-					<a href="https://www.linkedin.com/in/jiaxingyan/" target="_blank" class="inline-block mr-[5vw] drop-shadow-2xl">
+					<a href="https://www.linkedin.com/in/jiaxingyan/" target="_blank" class="inline-block mr-16 drop-shadow-2xl">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							width="24"
-							height="24"
+							width="36"
+							height="36"
 							viewBox="0 0 24 24"
 							class="fill-current night:text-neutral-content drop-shadow-2xl"
 						>
@@ -32,8 +32,8 @@
 					<a href="https://github.com/jx-yan" target="_blank" class="inline-block drop-shadow-2xl">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							width="24"
-							height="24"
+							width="36"
+							height="36"
 							viewBox="0 0 24 24"
                             class="fill-current night:text-neutral-content drop-shadow-2xl"
 						>

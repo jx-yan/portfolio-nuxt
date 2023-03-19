@@ -43,20 +43,20 @@
 <template>
 	<section id="design">
 		<div class="grid mx-auto">
-			<div class="container-fluid ml-[8vw] mr-[6vw] mt-0">
-				<div class="dropdown mt-16 z-50 mb-0 drop-shadow-2xl">
+			<div class="container-fluid ml-[8vw] mr-[6vw] mt-0 text-center">
+				<div class="dropdown mt-16 z-50 mb-6 drop-shadow-2xl">
 					<label
 						tabindex="0"
-						class="btn btn-outline btn-secondary-focus m-1 text-lg font-sans normal-case animate-bounce drop-shadow-2xl shadow-2xl"
+						class="btn btn-outline btn-secondary-focus text-lg font-sans normal-case animate-bounce drop-shadow-2xl shadow-2xl px-8"
 						>Design Portfolio</label
 					>
 					<ul
 						tabindex="0"
-						class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto -translate-y-6 text-center"
+						class="bg-base-100 dropdown-content menu p-2 m-0 shadow rounded-box"
 					>
-						<li v-for="design in designsAll">
+						<li v-for="design in designsAll" class="m-1 p-0">
 							<a
-								class="no-underline text-left"
+								class="btn btn-ghost h-auto leading-relaxed rounded-btn text-base-content capitalize px-2"
 								@click="displayDesign(design.title)"
 							>
 								{{ design.title }}
@@ -65,7 +65,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="container-fluid ml-[8vw] mr-[6vw] flex-col mb-4 mt-16">
+			<div class="container-fluid ml-[8vw] mr-[6vw] flex-col mb-4 mt-[1vw]">
 				<div class="card shadow-2xl flex-auto">
 					<img
 						:src="designDisplayed.imgLink"
@@ -96,7 +96,7 @@
 								class="no-underline pt-4"
 								target="_blank"
 							>
-								<button class="btn btn-secondary shadow-2xl drop-shadow-2xl">
+								<button class="btn glass shadow-2xl drop-shadow-2xl capitalize bg-base-content text-black">
 									View Prototype
 								</button>
 							</a>

@@ -51,9 +51,9 @@
 					v-if="project.projectLink"
 					class="no-underline"
 				>
-					<button class="btn btn-secondary shadow-2xl drop-shadow-2xl">Github</button>
+					<button class="btn glass drop-shadow-xl font-bold capitalize">Github</button>
 				</a>
-				<div class="badge badge-primary p-4 font-medium shadow-2xl" v-else>
+				<div class="badge badge-success p-4 shadow-2xl font-bold" v-else>
 					Private Repository
 				</div>
 			</div>

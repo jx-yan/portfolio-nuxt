@@ -1,6 +1,24 @@
 {
 	"expDetailsAll": [
 		{
+			"title": "ASEAN Distinction Award, ASEAN Geospatial Challenge 2023",
+			"company": "Singapore Land Authority, Badan Informasi Geospasial, NAMRIA",
+			"companyLogo": "https://www.grab.com/wp-content/uploads/2020/03/Grab-Logo-Black.png",
+			"location": "Singapore",
+			"date": "Feb 2023 - Mar 2023",
+			"jobDescAll": [
+				"Envisioned and constructed a volunteering mobile application prototype with four unique features to reinvent volunteering experience in Singapore in accordance with UN Sustainability Development Goals; Achieve Distinction (Highest) at ASEAN level"
+			],
+			"expSkills": [
+				"Pitching",
+				"Product Design",
+				"Figma",
+				"Business Analysis",
+				"Prototyping",
+				"Problem Solving"
+			]
+		},
+		{
 			"title": "Product Management Intern",
 			"company": "Grab",
 			"companyLogo": "https://www.grab.com/wp-content/uploads/2020/03/Grab-Logo-Black.png",
@@ -106,13 +124,14 @@
 			"date": "Dec 2022 - Apr 2023",
 			"projDescAll": [
 				"Designed a system for NETS that allows customers to pay merchants with an interoperable QR code regardless of e-wallet they are using; Developed four mobile applications with React Native, Prisma and Planetscale, an admin web app with Next 13, Springboot, MongoDB as MVP for Proof of Concept; Managed project based on scrumban workflow using Slack, Jira, and Confluence"
-			]
+			],
+			"image": "https://i.imgur.com/0Z9Z7Zu.png"
 		},
 		{
-			"title": "Software Project Management",
+			"title": "Learning Journey Management System - Software Project Management",
 			"position": "Full-Stack Developer",
 			"location": "Singapore",
-			"projectLink": "",
+			"projectLink": "https://github.com/jx-yan/learning-journey-mapping-system",
 			"date": "Sep 2022 - Oct 2022",
 			"projDescAll": [
 				"Constructed a learning management web application with 3 scrumban sprints to help learners to map learning journeys with courses and skills; Implemented tech stack with Nuxt 3 and TailwindCSS as frontend, ExpressJS, Prisma and PlanetScale (MySQL database) as backend"
@@ -138,7 +157,7 @@
 			]
 		},
 		{
-			"title": "Enterprise Solution Development Project",
+			"title": "Teleconsultation Platform - Enterprise Solution Development Project",
 			"position": "Full-Stack Developer",
 			"projectLink": "https://github.com/jx-yan/myTeleHealth-doctorUI",
 			"location": "Singapore",
@@ -166,7 +185,7 @@
 			"date": "Mar 2022 - Apr 2022",
 			"projDescAll": [
 				"Developed a website aimed at reducing food wastage and promote food sharing within community",
-				"Utilized Firebase Authentication and Cloud Firestore to setup website's authentication process and CRUD operations; Deployed website with Firebase Hosting and GitHub as CI/CD pipeline"
+				"Utilized Firebase Authentication and Cloud Firestore to setup website's authentication process and CRUD operations; Deployed website with Firebase Hosting and GitHub as CD pipeline"
 			]
 		}
 	],

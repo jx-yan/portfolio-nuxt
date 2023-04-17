@@ -10,6 +10,14 @@
 	.projContent {
 		color: hsl(var(--nc));
 	}
+
+	.zoom:hover {
+		transform: scale(
+			1.05
+		);
+		transition:  transform 0.2s ease-in-out;
+		box-shadow: 0 0 10px 0 hsl(var(--bc));
+	}
 </style>
 
 <script setup>
@@ -23,7 +31,7 @@
 
 <template>
 	<div
-		class="card bg-base-100 image-full lg:basis-[400px] md:basis-5/6 grow shadow-2xl"
+		class="card bg-base-100 image-full lg:basis-[400px] md:basis-5/6 grow shadow-2xl zoom"
 	>
 		<div class="card-body text-base-content">
 			<h2
@@ -51,7 +59,9 @@
 					v-if="project.projectLink"
 					class="no-underline"
 				>
-					<button class="btn glass drop-shadow-xl font-bold capitalize">Github</button>
+					<button class="btn glass drop-shadow-xl font-bold capitalize">
+						Github
+					</button>
 				</a>
 				<div class="badge badge-success p-4 shadow-2xl font-bold" v-else>
 					Private Repository

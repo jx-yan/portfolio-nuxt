@@ -18,7 +18,7 @@
 <template>
 	<section id="experience" class="m-0 pt-16">
 		<h2 class="m-0 font-sans font-bold antialiased drop-shadow-2xl ml-[8vw] mr-[6vw] text-center">
-			Experience
+			Experience & Awards
 		</h2>
 		<div class="flex flex-col ml-[8vw] mr-[6vw] mt-[1vw]">
 			<div class="flex flex-row">

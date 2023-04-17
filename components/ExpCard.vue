@@ -18,7 +18,8 @@
 		<span
 			class="avatar rounded-full bg-base-content shadow-2xl -translate-x-16 translate-y-20 md:visible invisible w-0 h-0 md:w-6 md:h-6"
 			><span
-				class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"
+				class="hover:animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"
+				
 			></span
 		></span>
 		<div class="card bg-base-100 shadow-xl mt-0">

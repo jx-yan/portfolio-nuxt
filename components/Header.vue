@@ -93,11 +93,8 @@
 				<div class="cursor" :class="{ typing: typeObj.typeStatus }"></div>
 			</h1>
 			<h2 class="m-0 py-5 font-sans font-bold antialiased drop-shadow-2xl">
-				Jiaxing's Website
+				Welcome to Jiaxing's Website
 			</h2>
-			<h3 class="m-0 drop-shadow-2xl italic p-10">
-				Aspiring Product Manager
-			</h3>
 		</div>
 		<p class="m-0 font-medium p-5 antialiased drop-shadow-2xl text-center mt-[5vw]">
 			Built with

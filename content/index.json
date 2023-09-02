@@ -7,11 +7,12 @@
 			"location": "Singapore",
 			"date": "May 2023 - Aug 2023",
 			"jobDescAll": [
-				"Developed applications using Zoho Creator with Deluge and HTML to automate the process of vehicle servicing and HOTO for GrabRentals; Reduced disputes significantly and increased efficiency for Grab’s rental process"
+				"Solo developer for an E2E fleet management web app to manage more than 5600 vehicles' locations, driver registrations and maintenance for GrabRentals using Zoho Deluge and NodeJS functions; Enabled total digitalisation and automation of rental operations by implementing comprehensive workflows encoded on business layer; Improved workshop efficiencies and reduced driver dispute lead time up to 70%",
+				"Interacted with end users to gather requirements and conduct UX testing; Completed data migration from 10+ sources on more than 5600 vehicles and drivers to allow operation team to smoothly transition onto new fleet management platform; Successfully deployed software with development, staging and production environments; Provided product flow and change management documentation using Figma for handover"
 			],
 			"expSkills": [
 				"Deluge",
-				"HTML",
+				"Javascript",
 				"Software Development"
 			]
 		},
@@ -40,8 +41,11 @@
 			"location": "Singapore",
 			"date": "Jan 2023 - May 2023",
 			"jobDescAll": [
-				"Owned and drive product scoping to revamp multi-stop rides on Grab’s ride hailing platform; Liaised closely with various country ops team to gather multi-stop rides 2.0 requirements, engaged with engineers closely to conduct effort benefit analysis; Led specification reviews with engineers and product designers to develop multi-stop rides 2.0 to push for higher passenger rides and GMV",
-				"Proposed and facilitated implementation of quick fix solution on reducing and redirecting cancellation on corporate rides; Led and collaborate with OVO team, engineers to develop OVO promo banners and internal ops platform changes; Worked with MY ops team to experiment and analyse impact on increased advanced booking radius"
+				"Owned and drove a high priority project on multi stop rides (78 people involved) for 5% forecasted increase in shared rides in order to provide more affordable options for passengers and better earnings for drivers with configurable additional stops, route optimisation, split payment",
+				"Conducted user testing on prototype with UX researcher and iterated designs with designers for Phase 0, Phase 1; Engaged with data scientists on instrumentation and measurement of product success; Collaborated with engineers closely to align on implementation and product decisions",
+				"Wrote user stories for Phase 0 to 3, spanning 5 months' worth of development; Led specification reviews with 18 engineers to develop new frontend screens and new capabilities on multi high importance API on geo services, rides, and pricing",
+				"Proposed and facilitated implementation of cancellation write-off to arrears flow to eliminate 2000+ corporate cancellations that incurs a monthly cost up to $10k; Worked with fulfilment team to explore and proposed solutions to reduce incorrect waiting fee and driver's quality framework",
+				"Managed development of OVO (Indonesian e-wallet) promo banners and internal ops platform changes to improve OVO penetration rate on rides by adding eligibility check and promo calculation logic on rides API; Worked with Malaysia operations team to experiment increased advanced booking radius at Kuala Lumpur International Airport - improved fulfilment rate of pre-allocated rides by 1%"
 			],
 			"expSkills": [
 				"Product Management",
@@ -60,10 +64,10 @@
 			"location": "Singapore",
 			"date": "May 2022 - Nov 2022",
 			"jobDescAll": [
-				"Coordinated launch of eSIM in Circles.Life Australia with forecast increase in company GAs by 10% and increase in activation rate by 20%; Iterated and created new eSIM order and activation flow in collaboration with product managers, design team",
-				"Responsible for gathering prepaid SIM system requirements and developing prepaid system features with forecast increase in 5.5k GAs per month and increase in brand impression after launch in Australia",
+				"Drove development of eSIM in Circles.Life Australia with forecasted 10% increase in gross adds and 20% increase in activation rate; Constructed new eSIM order and activation flows with engineers and designers, creating new frontend screens and API capabilities to support eSIM operations",
+				"Gathered requirements to develop new prepaid API and web forms with engineers to increase gross adds by 5.5K per month via Prepaid Plan",
 				"Managed development of plan refreshes to offer International Calls add-on and mid-tier plan in Circles.Life Australia which increased company revenue stream and increase ARPU by 2.5%",
-				"Led user research efforts with research and trends team on a revamp project for SIM purchasing journey in Singapore and Australia to improve user experience, with a forecast 20% increase in SUPR-Q score"
+				"Led user research efforts with research and trends team on a project to revamp SIM purchase journey in Singapore and Australia to enhance user experience, with a forecast of 20% increase in SUPR-Q score; Enhanced company revenue standing with 2% increase in average revenue per user in Australia by pushing out plan refreshes to offer International Calls add-on and $35 mid-tier plan in web and retail order flows"
 			],
 			"expSkills": [
 				"Product Management",

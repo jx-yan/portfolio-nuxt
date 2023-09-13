@@ -1,5 +1,4 @@
 <style>
-	
 	/* [data-theme="winter"] #footer {
 		background-image: linear-gradient(to bottom left, #8080ee, #f4d8bb);
 		background-position: center;
@@ -15,14 +14,14 @@
 		designsAll = res.data.value[0].designsAll;
 	});
 
-	var designDisplayed = reactive({
+	let designDisplayed = reactive({
 		title: designsAll[0].title,
 		position: designsAll[0].position,
 		projectName: designsAll[0].projectName,
 		date: designsAll[0].date,
 		desc: designsAll[0].desc,
 		link: designsAll[0].link,
-		imgLink: designsAll[0].imgLink,
+		imgLink:"https://res.cloudinary.com/dymyh1ea3/image/upload/v1664855909/shopeepay-revamp_qylwem.png",
 	});
 
 	function displayDesign(title) {
@@ -34,7 +33,10 @@
 				designDisplayed.date = designObj.date;
 				designDisplayed.desc = designObj.desc;
 				designDisplayed.link = designObj.link;
-				designDisplayed.imgLink = new URL(designObj.imgLink, import.meta.url).href;
+				designDisplayed.imgLink = new URL(
+					designObj.imgLink,
+					import.meta.url
+				).href;
 			}
 		}
 	}
@@ -96,7 +98,9 @@
 								class="no-underline pt-4"
 								target="_blank"
 							>
-								<button class="btn glass shadow-2xl drop-shadow-2xl capitalize bg-base-content text-black">
+								<button
+									class="btn glass shadow-2xl drop-shadow-2xl capitalize bg-base-content text-black"
+								>
 									View Prototype
 								</button>
 							</a>

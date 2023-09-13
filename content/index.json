@@ -215,7 +215,7 @@
 			"projectName": "Shopee Product & Design Challenge 2022",
 			"location": "Singapore",
 			"link": "https://www.figma.com/file/wqUlz0P5j7WyoLqxdoONhq/SPay-Design-Screens?node-id=3%3A3631",
-			"imgLink": "../assets/shopeepay-revamp_qylwem.png",
+			"imgLink": "@/assets/shopeepay-revamp_qylwem.png",
 			"date": "Sep 2022",
 			"desc": "Created a high fidelity prototype to overhaul ShopeePay with new functionalties, look and feel"
 		},
@@ -224,7 +224,7 @@
 			"position": "UX Designer",
 			"projectName": "Ellipsis Tech Department",
 			"location": "Singapore",
-			"link": "../assets/ellipsis-web_c0kwz6.png",
+			"link": "@/assets/ellipsis-web_c0kwz6.png",
 			"imgLink": "https://res.cloudinary.com/dymyh1ea3/image/upload/v1664855909/ellipsis-web_c0kwz6.png",
 			"date": "July 2022 - Aug 2022",
 			"desc": "Designed a new club website for Ellipsis, SCIS's constituent club"
@@ -234,7 +234,7 @@
 			"position": "UX Designer",
 			"projectName": "Digital Transformation Project",
 			"link": "https://www.figma.com/file/AXgqlAlHA14iptWs5ZVXVb/Cleara?node-id=0%3A1",
-			"imgLink": "../assets/cleara_cover.png",
+			"imgLink": "@/assets/cleara_cover.png",
 			"location": "Singapore",
 			"date": "Mar 2022 - Apr 2022",
 			"desc": "Ideated and designed a mobile application, Cleara, a startup idea on providing a platform for scheduled and on-demand home services with dynamic pricing algorithm"
@@ -244,7 +244,7 @@
 			"position": "UX Designer",
 			"projectName": "Interaction Design Prototype Project",
 			"link": "https://www.figma.com/file/BEF7I26WNRrHzFQaYyPaO5/HelpTogether-Prototype?node-id=13733%3A11303",
-			"imgLink": "../assets/helptogether_cover.png",
+			"imgLink": "@/assets/helptogether_cover.png",
 			"location": "Singapore",
 			"date": "Dec 2021",
 			"desc": "Created design to improve user experience for a mobile application that connects volunteers with community organisations"
@@ -254,7 +254,7 @@
 			"position": "Team Lead / UX Designer",
 			"projectName": "Citi-SMU Financial Inclusion Hackathon 2021",
 			"link": "https://www.figma.com/file/lci46lnvgcijNNiQMYzNHX/Lit-App?node-id=0%3A1",
-			"imgLink": "../assets/litapp_cover.png",
+			"imgLink": "@/assets/litapp_cover.png",
 			"location": "Singapore",
 			"date": "Mar 2022 - Apr 2022",
 			"desc": "Ideated and prototyped a mobile application - LitApp with seven unique features to empower budgeting for young adults"

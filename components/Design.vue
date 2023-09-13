@@ -68,7 +68,7 @@
 			<div class="container-fluid ml-[8vw] mr-[6vw] flex-col mb-4 mt-[1vw]">
 				<div class="card shadow-2xl flex-auto">
 					<img
-						:src="require(designDisplayed.imgLink)"
+						:src="designDisplayed.imgLink"
 						class="m-0 max-h-80 object-cover"
 					/>
 

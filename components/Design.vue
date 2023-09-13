@@ -34,7 +34,7 @@
 				designDisplayed.date = designObj.date;
 				designDisplayed.desc = designObj.desc;
 				designDisplayed.link = designObj.link;
-				designDisplayed.imgLink = designObj.imgLink;
+				designDisplayed.imgLink = new URL(designObj.imgLink, import.meta.url).href;
 			}
 		}
 	}

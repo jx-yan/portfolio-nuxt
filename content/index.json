@@ -1,6 +1,45 @@
 {
 	"expDetailsAll": [
 		{
+			"title": "Product Manager",
+			"company": "OKX",
+			"companyLogo": "",
+			"location": "Singapore",
+			"date": "June 2024 - Present",
+			"jobDescAll": [
+				"Incoming Product Manager under Globalisation team in OKX, second biggest crypto exchange by trading volume in the world"
+			],
+			"expSkills": ["Product Management"]
+		},
+		{
+			"title": "Software Development Intern",
+			"company": "Grab",
+			"companyLogo": "https://www.grab.com/wp-content/uploads/2020/03/Grab-Logo-Black.png",
+			"location": "Singapore",
+			"date": "Jan 2024 - May 2024",
+			"jobDescAll": [
+				"Developer for an E2E fleet management web app to manage more than 5600 vehicles' locations, driver registrations and maintenance for GrabRentals using Zoho Deluge and NodeJS functions; Automated workshop invoicing and fleet operations with an invoicing system and revamped fleet operation workflows; Improved workshop efficiencies and reduced driver dispute lead time up to 40%"
+			],
+			"expSkills": ["Deluge", "Javascript", "Software Development"]
+		},
+		{
+			"title": "Business Analyst Intern",
+			"company": "Accenture",
+			"companyLogo": "",
+			"location": "Singapore",
+			"date": "Aug 2023 - Sep 2023",
+			"jobDescAll": [
+				"Involved in the development of a budgeting and monitoring system for a government client; Coordinated with business analysts and external vendors to craft user stories and acceptance criteria to fulfil client requirements; Created compilation views with Excel to track JIRA tickets completion status and assisted data migration lead and change management lead to test prototype in preparation for show and tell session"
+			],
+			"expSkills": [
+				"Business Analysis",
+				"Jira",
+				"Confluence",
+				"Excel",
+				"Problem Solving"
+			]
+		},
+		{
 			"title": "Software Development Intern",
 			"company": "Grab",
 			"companyLogo": "https://www.grab.com/wp-content/uploads/2020/03/Grab-Logo-Black.png",
@@ -10,11 +49,7 @@
 				"Solo developer for an E2E fleet management web app to manage more than 5600 vehicles' locations, driver registrations and maintenance for GrabRentals using Zoho Deluge and NodeJS functions; Enabled total digitalisation and automation of rental operations by implementing comprehensive workflows encoded on business layer; Improved workshop efficiencies and reduced driver dispute lead time up to 70%",
 				"Interacted with end users to gather requirements and conduct UX testing; Completed data migration from 10+ sources on more than 5600 vehicles and drivers to allow operation team to smoothly transition onto new fleet management platform; Successfully deployed software with development, staging and production environments; Provided product flow and change management documentation using Figma for handover"
 			],
-			"expSkills": [
-				"Deluge",
-				"Javascript",
-				"Software Development"
-			]
+			"expSkills": ["Deluge", "Javascript", "Software Development"]
 		},
 		{
 			"title": "ASEAN Distinction Award, ASEAN Geospatial Challenge 2023",

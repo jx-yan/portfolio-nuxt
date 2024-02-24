@@ -69,11 +69,7 @@
 			</div>
 			<div class="container-fluid ml-[8vw] mr-[6vw] flex-col mb-4 mt-[1vw]">
 				<div class="card shadow-2xl flex-auto">
-					<img
-						:src="designDisplayed.imgLink"
-						class="m-0 max-h-80 object-cover"
-					/>
-
+					<NuxtImg :src="designDisplayed.imgLink"  class="m-0 max-h-80 object-cover"/>
 					<div class="card-body basis-1/4">
 						<div class="flex">
 							<h2 class="m-0 text-base-content inline-flex">

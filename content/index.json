@@ -18,7 +18,8 @@
 			"location": "Singapore",
 			"date": "Jan 2024 - May 2024",
 			"jobDescAll": [
-				"Developer for an E2E fleet management web app to manage more than 5600 vehicles' locations, driver registrations and maintenance for GrabRentals using Zoho Deluge and NodeJS functions; Automated workshop invoicing and fleet operations with an invoicing system and revamped fleet operation workflows; Improved workshop efficiencies and reduced driver dispute lead time up to 40%"
+				"Developer for an E2E fleet management web app to manage more than 5600 vehicles' locations, driver registrations and maintenance for GrabRentals using Zoho Deluge and NodeJS functions; Improved workshop efficiencies and reduced driver dispute lead time up to 40%",
+				"Created an invoicing feature on the fleet management system that is used to review and approve up to 2000 monthly work orders between Grab and other workshops with each order specifying type of vehicle work done on each specified vehicle; "
 			],
 			"expSkills": ["Deluge", "Javascript", "Software Development"]
 		},
